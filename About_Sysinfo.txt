@@ -1,0 +1,22 @@
+🧠 What Goes Inside system_info.
+✅ System Details
+OS name and version (platform, os)
+
+CPU and memory info (psutil)
+
+Disk usage and drive info (psutil)
+
+USB ports (via pyusb or wmi on Windows)
+
+✅ Network Info
+MAC address and IP (uuid, socket)
+
+Number of eth0 / wlan0 interfaces (netifaces)
+
+Internet connectivity (requests)
+
+ISP name (ipinfo.io or similar API)
+✅ Software Info
+Browser version (via registry or file paths)
+
+Windows Firewall status (subprocess or wmi)
