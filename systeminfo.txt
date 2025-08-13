@@ -1,0 +1,5 @@
+System-Info-Tool/
+├── system_info.py
+├── README.md
+├── requirements.txt
+└── screenshots/
